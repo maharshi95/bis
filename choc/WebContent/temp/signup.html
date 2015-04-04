@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>SignUp Form</title>
+</head>
+<body>
+	<FORM  name="signup_form" METHOD=post ACTION="http://localhost:8080/com.sample/UserController">
+		<input type="hidden" name=type value="signup">
+		Firstname: <input type=text size = 45 name=fname value = "" required><br><br>
+		Lastname: <input type=text size = 45 name=lname value = "" required><br><br>
+		Email: <input type="email" size= 45 name=email value = "" required><br><br>
+		Password: <input type="password" size = 45 name=pass value = "" required><br><br>
+		Confirm Password: <input type="password" size = 45 name=cnfrmpass value = "" required><br><br>
+		Contact No: <input type="number" size = 45 name=contact value = "" required><br><br>
+		<input type=submit value=login>
+	</FORM>
+</body>
+</html>
